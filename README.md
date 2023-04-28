@@ -3,6 +3,8 @@ Ce projet m'a pris 22 heures.
 
 Lancer le projet
 
+### `npm install`
+
 ### `npm run server`
 
 Permet de lancer le serveur
