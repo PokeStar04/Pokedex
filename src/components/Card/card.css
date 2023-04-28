@@ -1,0 +1,332 @@
+.card{
+    position: relative;
+    z-index: 1;
+    width: 352px;
+    height: 136px;
+    background-color: #F6F7F9;
+    border: 8px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
+    border-radius: 8px;
+    margin-bottom: 45px;
+}
+.imgPokemon{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 8px 8px 0px;
+}
+.contentCard{
+  
+    padding: 12px 4px 12px 25px;
+}
+.pokemonName{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.stats{
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.stat{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 36px;
+    width: 37px;
+    border: solid black 3px;
+    border-radius: 100%;
+}
+.statsName{
+    display: flex;
+    justify-content: space-between;
+}
+.statName{
+    
+    font-size: 12px;
+    color: #4B4B4B;
+    margin-bottom: 10px;
+}
+.pokemonTypes{
+    position: absolute;
+    display: flex;
+    gap: 13px;
+    bottom: 12px;
+}
+
+
+
+
+.modal {
+position: fixed;
+    z-index: 100;
+width: 54%;
+height: 371px;
+left: 23%;
+right: 23%;
+top: 35%;
+border-radius: 16px;
+display: grid;
+grid-template-columns: 42% 58%;
+
+  }
+  
+  .modal-overlay {
+
+    z-index: 10;
+    
+    height: 100%;
+    width: 100%;
+    background: #212121;
+    opacity: 0.5;
+  }
+  
+  .modal-content {
+    position: relative;
+  width: 100%;
+    z-index: -1;
+
+
+ 
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 16px 16px 0px;
+    background: linear-gradient(180deg, #732119 42.19%, #D93E30 100%);
+    padding: 18px 28px;
+    
+  }
+  .imgPokemonModal{
+ position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: contain;
+    background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
+
+
+box-shadow: 4px 4px 8px rgba(1, 28, 64, 0.2);
+
+
+  }
+  .pokemonTypesModal{
+
+     position: absolute;
+    display: flex;
+    gap: 13px;
+    bottom: 12px;
+    right: 15px;
+  }
+.closeModal{
+    position: absolute;
+    right: -0px;
+    top: -45px;
+}
+
+
+.headerModal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+.headerModal h1{
+color: #FDFDFD;
+font-size: 42px;
+font-weight: 700;
+}
+.generation{
+    display: flex;
+    color: #FDFDFD;
+     gap: 8px;
+     align-items: end;
+     
+}
+.generation p {
+
+font-family: 'Source Sans Pro' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;display: flex;
+
+
+}
+.cirlcleYellow{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    color: #212121;
+    width: 41px;
+    height: 41px;
+    padding: 11px 7px;
+    border-radius: 50px;
+    
+}
+
+.abilites{
+    width: 264px;
+
+    padding: 12px 30px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 21px;
+}
+.progress{
+
+    display: flex;
+    gap: 35px;
+    padding: 18px 19px 8px 19px;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin-bottom: 21px;
+}
+h3{
+    font-size: 16px;
+  
+}
+.number{
+    font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+}
+
+.relative{
+
+    position: relative;
+}
+.progressBar1{
+    content: "";
+    width: 167px;
+    height: 5px;
+    background: #F6F7F9;
+border-radius: 8px;
+}
+
+.progressBar2{
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 137px;
+    height: 5px;
+    background: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);;
+border-radius: 8px;
+}
+.progressBar3{
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 137px;
+    height: 5px;
+    background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
+border-radius: 8px;
+}
+
+  .statsModal{
+    display: flex; 
+    gap: 8px;
+   justify-content: space-between;
+  }
+  .statModal div{
+    display: flex;
+    justify-content: center;
+  }
+  .statModal{
+   background-color: white;
+
+   border-radius: 8px;
+   padding: 8px 18px;
+  }
+  .statCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    margin-bottom: 6px;
+ 
+    height: 35px;
+    width: 35px;
+    border: solid black 3px;
+    border-radius: 100%;
+  }
+
+
+
+
+
+  /*  ==================== MEDIA QUERIES (MEDIEUM DEVICES) ==================== */
+
+@media screen and (max-width: 1024px)  {
+
+    .modal{
+      
+        display: block;
+        position: relative;
+        width: 90%;
+    
+        left: 5%;
+        right: 5%;
+ 
+
+    }
+    .pokemonTypesModal{
+     justify-content: start;
+     padding-left: 35px;
+            gap: 3px;
+        width: 100%;
+    }
+    .modal-content{
+        border-radius: 0px 0px 8px 8px;
+
+    }
+    .imgPokemonModal{
+        border-radius: 8px 8px 0px 0px;
+    }
+  .closeModal{
+    display: block;
+    position: absolute;
+    top:-340px;
+  
+    z-index: 1000;
+  }
+    .headerModal{
+        display: block;
+    }
+    .generation{
+        display: flex;
+        justify-content: space-between;
+    }
+    .abilites{
+        width: 100%;
+    }
+    .progress{
+        display: block;
+      
+    }
+    .progressBar1{
+      width: 100%;
+    }
+    .progressBar2{
+        width: 80%;
+      }
+      .progressBar3{
+        width: 80%;
+      }
+      .statsModal{
+      display: flex;
+      flex-wrap: wrap;
+      }
+      .statModal{
+        width: 45%;
+        text-align: center;
+      }
+    }
+    
+  

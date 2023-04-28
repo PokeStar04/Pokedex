@@ -1,0 +1,18 @@
+.CTA{
+    font-family: 'Karla';
+    font-weight: 600;
+    font-size: 23px;
+    background-color: #73D677;
+    width: 231px;
+    height: 66px;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -9px 0px rgba(0, 0, 0, 0.18)
+
+
+}
+.yellow{
+    background: #F2CB07;
+}

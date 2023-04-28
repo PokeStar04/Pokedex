@@ -1,0 +1,36 @@
+.pokedexTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 73px;
+    margin-bottom: 34px;
+    letter-spacing: 3px;
+
+}
+.pokedexTitle span{
+   font-weight: 700;
+   padding: 0px 8px;
+}
+.searchBar{
+    height: 53px;
+width: 100%;
+background-color: #F2F2F2;
+border-radius: 40px;
+    margin-bottom: 110px;
+
+
+}
+
+/*  ==================== MEDIA QUERIES (MEDIEUM DEVICES) ==================== */
+
+@media screen and (max-width: 1024px)  {
+
+
+     
+    .pokedexTitle{
+        display: block;
+    }
+    
+    }
+    
+  

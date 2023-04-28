@@ -1,0 +1,11 @@
+.pokemonList{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+input{
+    border: none;
+    box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+    padding: 16px 31px;
+}

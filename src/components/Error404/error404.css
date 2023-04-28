@@ -1,0 +1,28 @@
+.backgroudError{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #D93E30;
+    height: 100vh;
+    overflow: hidden;
+  
+}
+.black{
+    color: black;
+}
+.backgroudError h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.ErrorImg img{
+
+object-fit: contain;
+width: 100%;
+}

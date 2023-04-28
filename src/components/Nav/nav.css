@@ -1,0 +1,42 @@
+
+header{
+    position: relative;
+    background-color: #F5DB13;
+    box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+    padding: 15px 157px;
+    display: flex;
+    gap: 300px;
+}
+nav{
+    font-family: "Karla";
+    font-size: 25px;
+    padding-top: 9px;
+    display: flex;
+    gap: 66px;
+    
+}
+
+a.active{
+
+    padding-bottom: 16px;
+    border-bottom: solid 3px #212121 ;
+}
+
+a{
+    color: #000;
+    height: 45px;
+}
+.logo{
+    height: 63px;
+}
+
+@media screen and (max-width: 1024px)  {
+
+
+  nav,header{
+    
+    display: block;
+  }
+  
+  }
+  
